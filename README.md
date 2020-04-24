@@ -1,2 +1,0 @@
-# Pierwsze
-Moje pierwsze repo
