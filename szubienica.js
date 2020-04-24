@@ -24,7 +24,7 @@ haslo = haslo.toUpperCase();
 var dlugosc = haslo.length;
 var ile_skuch = 0;
 
-var yes = new Audio("yes.mp3");
+var yes = new Audio("yes.wav");
 var no = new Audio("no.wav");
 
 var haslo1 = "";
