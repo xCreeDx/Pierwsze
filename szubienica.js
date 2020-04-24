@@ -3,7 +3,7 @@ function resetowanie()
 document.getElementById("resecik").setAttribute("onclick", "location.reload()");
 }
 
-var zbior_hasel = new Array(10);
+var zbior_hasel = new Array(40);
 
 zbior_hasel[1] = "Teścik";
 zbior_hasel[2] = "korona";
@@ -15,10 +15,40 @@ zbior_hasel[7] = "kocham kasię";
 zbior_hasel[8] = "mamy fajną kanapę";
 zbior_hasel[9] = "jest super";
 zbior_hasel[10] = "więc o co Ci chodzi";
+zbior_hasel[11] = "gdzie nocują jeże";
+zbior_hasel[12] = "co w trawie piszczy";
+zbior_hasel[13] = "ala ma kota";
+zbior_hasel[14] = "kot ma ale";
+zbior_hasel[15] = "samoloty latają bardzo wysoko";
+zbior_hasel[16] = "niebo jest niebieskie";
+zbior_hasel[17] = "wiem że nic nie wiem";
+zbior_hasel[18] = "szczebrzeszyn";
+zbior_hasel[19] = "chrabąszcz";
+zbior_hasel[20] = "chrząszcz";
+zbior_hasel[21] = "pada deszczyk";
+zbior_hasel[22] = "koronawirus jest groźny";
+zbior_hasel[23] = "kocham polskę";
+zbior_hasel[24] = "kocham andrzeja dude";
+zbior_hasel[25] = "duda na prezydenta";
+zbior_hasel[26] = "co ja robię tu";
+zbior_hasel[27] = "lelum polelum";
+zbior_hasel[28] = "atomówka";
+zbior_hasel[29] = "kaftan bezpieczeństwa";
+zbior_hasel[30] = "kosmonauta";
+zbior_hasel[31] = "lot nad kukułczym gniazdem";
+zbior_hasel[32] = "telenowela";
+zbior_hasel[33] = "najlepszy programista";
+zbior_hasel[34] = "java script";
+zbior_hasel[35] = "nauka języków obcych";
+zbior_hasel[36] = "najlepszy samochód to audi";
+zbior_hasel[37] = "praca zdalna";
+zbior_hasel[38] = "telefon samsung";
+zbior_hasel[39] = "zbiór haseł to czterdzieści";
+zbior_hasel[40] = "domek na drzwie";
 
 //var nr_hasla = Math.floor(Math.random() * 10) + 1;
-
-var haslo = zbior_hasel[Math.floor(Math.random() * 10) + 1];
+var haslo = zbior_hasel[Math.floor(Math.random() * (40 - 1 + 1) ) + 1];
+//var haslo = zbior_hasel[Math.floor(Math.random() * 10) + 1];
 haslo = haslo.toUpperCase();
 
 var dlugosc = haslo.length;
